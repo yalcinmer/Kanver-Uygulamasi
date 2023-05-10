@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "442010062999",
+    "project_id": "kanver-f2fb4",
+    "storage_bucket": "kanver-f2fb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442010062999:android:0e35fd2baac0547a0059d2",
+        "android_client_info": {
+          "package_name": "com.example.kanver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442010062999-vpssa8nd2co0nrupgcc83nrqoo40a77m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kanver",
+            "certificate_hash": "5fe2448491abe816c1585e892bf9346caf4a8625"
+          }
+        },
+        {
+          "client_id": "442010062999-a73h2e9o0okp2o8qdg6pjof5offbs3b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFWH7Zol5H6f6PL0F-jsjN2N55ldydOMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442010062999-a73h2e9o0okp2o8qdg6pjof5offbs3b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

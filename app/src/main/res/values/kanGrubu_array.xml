@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt">Kan Grubu Seçin</string>
+    <string-array name="kanGrubu_array">
+        <item>Kan Grubunu Seçin..</item>
+        <item>A Rh+</item>
+        <item>A Rh-</item>
+        <item>B Rh+</item>
+        <item>B Rh-</item>
+        <item>AB Rh+</item>
+        <item>AB Rh-</item>
+        <item>0 Rh+</item>
+        <item>0 Rh-</item>
+    </string-array>
+</resources>

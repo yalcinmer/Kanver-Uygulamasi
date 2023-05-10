@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kan"
+    tools:context=".KanIhtiyacListesi">
+
+    <RelativeLayout
+        android:id="@+id/relKanKullanici"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:navigationIcon="@android:color/transparent"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="lollipop">
+
+        <ImageButton
+            android:id="@+id/geriTusuu"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_baseline_arrow_back_beyaz" />
+
+        <EditText
+            android:id="@+id/textArama"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Şehre göre arama yap.."
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/white" />
+
+        <ImageView
+            android:id="@+id/aramaButon"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/ic_baseline_search_24_white"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewKan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relKanKullanici"
+        android:orientation="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

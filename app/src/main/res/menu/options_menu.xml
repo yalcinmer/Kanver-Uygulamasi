@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Ayarlar"
+        android:id="@+id/settings_option"
+        android:textColor="@color/black"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:title="Çıkış Yap"
+        android:id="@+id/main_logout_option"
+        android:textColor="@color/black"
+        app:showAsAction="never"
+        >
+    </item>
+
+</menu>

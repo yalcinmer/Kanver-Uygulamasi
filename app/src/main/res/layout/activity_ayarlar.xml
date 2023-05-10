@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AyarlarActivity"
+    android:background="@color/gri">
+
+    <ImageButton
+        android:id="@+id/geriTusuAyarlar"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/blood_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="10dp"/>
+
+
+    <EditText
+        android:id="@+id/text_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="280dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şehir:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/text_user_name" />
+
+    <EditText
+        android:id="@+id/text_sehir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_user_name"
+        android:inputType="textMultiLine"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adres:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/text_sehir"/>
+
+    <EditText
+        android:id="@+id/text_user_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_sehir"
+        android:inputType="textMultiLine"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="3dp"
+        />
+
+    <Button
+        android:id="@+id/text_update_settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_user_address"
+        android:text="Bilgilerimi Güncelle"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/red"
+        android:background="@drawable/profil_guncelle_buton"
+        android:padding="6dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

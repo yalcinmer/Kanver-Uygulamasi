@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kan"
+    tools:context=".MesajListesi">
+
+    <RelativeLayout
+        android:id="@+id/relMesajListesi"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:navigationIcon="@android:color/transparent"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="lollipop">
+
+        <ImageButton
+            android:id="@+id/geriTusuMesajListesi"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/ic_baseline_arrow_back_beyaz"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <EditText
+            android:id="@+id/textAramaMesajListesi"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Kullanıcı ara.."
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/white" />
+
+        <ImageView
+            android:id="@+id/aramaButonMesajListesi"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/ic_baseline_search_24_white"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMesajListesi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/relMesajListesi"/>
+
+</RelativeLayout>

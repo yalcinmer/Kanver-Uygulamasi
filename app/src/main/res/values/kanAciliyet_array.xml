@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kanAciliyet_array">
+        <item>Kan Aciliyet Durumunu Belirtin</item>
+        <item>Acil</item>
+        <item>Acil değil</item>
+    </string-array>
+</resources>
